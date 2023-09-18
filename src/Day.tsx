@@ -17,6 +17,9 @@ import { DATE_FORMAT } from './Constant'
 import { IMessage } from './Models'
 
 import { useChatContext } from './GiftedChatContext'
+import 'dayjs/locale/ja';
+import 'dayjs/locale/vi';
+import 'dayjs/locale/en';
 
 const styles = StyleSheet.create({
   container: {
